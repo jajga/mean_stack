@@ -11,11 +11,11 @@ describe('App Unit testing', () => {
 	
 
 	before(() => {
-		console.log('Before running test exec ');
+		console.log('Before running test exec succesfully ');
 	})
 
 	after(()=> {
-		console.log('After running test exec');
+		console.log('After running test exec succesfully');
 	})
 
 	it('Testing user API', () => {
